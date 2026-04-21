@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_classic.chains import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_chroma import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
